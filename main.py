@@ -23,7 +23,7 @@ for thread in thread_titles:
 try:
     pos = clans.index(clan_str)
     if pos != 0:
-        print("We're currently {} on the recruitment forum. Time for a bump?".format(pos))
+        print("We're currently {} on the recruitment forum. Time for a bump?".format(pos+1))
     else:
         print("We're #1, we're #1!")
 except:
